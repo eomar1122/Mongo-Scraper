@@ -106,13 +106,9 @@ button:focus {
   height: var(--header-height);
 }
 
-/***************************** modal CSS *****************************/
 
 .modal-content {
-  background-size: cover;
-  background-position: center 12%;
   border-radius: 0;
-  /* font-family: 'Rock Salt', cursive; */
   color: #000;
 }
 
@@ -163,9 +159,6 @@ button:focus {
 }
 
 .storyPanel {
-  background-image: url("../img/panel-background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   color: #777;
   padding: 20px;
 
