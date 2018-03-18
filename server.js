@@ -12,9 +12,7 @@ var PORT = process.env.PORT || 3000;
 var config = require('./config/connection');
 mongoose.Promise = Promise;
 mongoose
-  .connect(config.database, {
-    useMongoClient: true
-  })
+  .connect(config.database)
   .then(function(result) {
     console.log('Connected to database');
   })

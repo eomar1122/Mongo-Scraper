@@ -6,7 +6,7 @@
   </nav>
 </header>
 <div class="filler"></div>
-
+<div class="container">
 {{#each articles}}
   {{#unless saved}}
     <figure class="storyPanel clearfix">
@@ -28,6 +28,8 @@
     </figure>
   {{/unless}}
 {{/each}}
+
+</div>
 
 {{!-- Modal for alerting number of scraped articles --}}
 <div id="alertModal" class="modal fade" role="dialog">

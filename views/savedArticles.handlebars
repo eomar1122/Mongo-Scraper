@@ -5,7 +5,7 @@
     </nav>
   </header>
   <div class="filler"></div>
-
+<div class="container">
   {{!-- #each to iterate through articles and create article panels --}}
   {{#each articles}}
     {{#if saved}}
@@ -29,6 +29,7 @@
       </figure>
     {{/if}}
   {{/each}}
+  </div>
 
   {{!-- modal for displaying and creating notes --}}
   <div id="noteModal" class="modal fade" role="dialog">
